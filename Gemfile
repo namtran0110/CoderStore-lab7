@@ -46,3 +46,5 @@ gem 'carrierwave'
 
 gem 'carrierwave-aws'
 gem 'dotenv-rails'
+gem 'carrierwave-postgresql', github: 'harley/carrierwave-postgresql', branch: 'update-carrierwave-version'
+gem 'postgresql_lo_streamer'

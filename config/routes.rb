@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   resources :products
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # this will accept route to /product_thumbnail/:oid
+  mount PostgresqlLoStreamer::Engine => "/product_thumbnail"
 end
